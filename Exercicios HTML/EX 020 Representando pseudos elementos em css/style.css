@@ -1,0 +1,32 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    color: rgb(9, 5, 0);
+}
+a{
+    color:darkred;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    color: rgb(235, 9, 9);
+}
+a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+a:active{
+   color: aqua;
+}
+a::before{
+    content: '☚';
+}
+a::after{
+    content: '☛';
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(64, 7, 7);
+}

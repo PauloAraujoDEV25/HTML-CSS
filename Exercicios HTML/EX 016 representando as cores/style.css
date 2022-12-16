@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Qatar2022';
+    src: url('Qatar2022Arabic-Bold.ttf') format(truetype);
+    font-weight: bold;
+    font-style:bold ;
+}
+
+*{
+    font-family: 'Qatar2022';
+}
+body{
+    background-image: linear-gradient(100deg,rgb(197, 22, 78),rgba(8, 0, 3, 0.856),rgb(197, 22, 78));
+    background-attachment: fixed;   
+}
+main{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+img{
+    width: 250px; 
+    margin: auto;
+    display: block;
+}
+h1{
+    font-family: 'Qatar2022';
+    font-weight: Bold;
+    font-style: Bold;
+    color: white;
+    border-radius: 100px;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.644);
+}
+h2{
+    font-family: 'Qatar2022';
+    font-weight: Bold;
+    font-style: Bold;
+    color: white;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.644);
+}
+li{
+    font-weight: bold;
+    font-style: italic;
+    color:rgb(237, 237, 221) ;
+    background-color: rgb(137, 137, 135);
+    border-radius: 50px;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.644);
+    text-align: center;
+
+}
+p{
+    text-align: justify;
+    color:rgb(233, 233, 231) ;
+    margin-left: 45%;
+    margin-right: 45%;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.644);
+} 

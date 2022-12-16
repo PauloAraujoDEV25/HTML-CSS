@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&family=Kiwi+Maru&display=swap');
+header{
+    background-image: linear-gradient(rgb(21, 19, 19) 65%,rgba(80, 74, 74, 0.763));
+    color: antiquewhite;
+    padding: 40px;
+    margin: -1%;
+    box-shadow:1px 1px 1px 1px rgba(22, 21, 21, 0.51) ;
+    border-radius: 5px;
+}
+h1#h1header{
+    text-align: center;
+}
+p#pheader{
+    text-align: center;
+}
+nav > a{
+   text-align: left;
+   color: antiquewhite;
+   margin-right:30px;
+   box-shadow:1px 1px 1px 1px rgba(22, 21, 21, 0.51) ;
+   color:antiquewhite;
+}
+ 
+body{
+    background-image: linear-gradient(45deg, #B73551, #7E6781,#03C299,#557F8B,#557F8B);
+    font-family: 'Audiowide', sans-serif;
+    font-style: bold;
+    background-attachment: fixed;
+}
+main{
+    background-color: black;
+    padding: 15px;
+    margin: 25%;
+    box-shadow:1px 1px 1px 1px rgba(22, 21, 21, 0.51);
+    margin-top: 1%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+}
+h1{
+    font-family: 'Audiowide';
+    color: antiquewhite;
+    font-style: bold;
+}
+h2{
+    font-family: 'audiowide';
+    font-style: bold;
+    color: antiquewhite;
+}
+p{
+    font-family: 'kiwi maru';
+    font-style: bold;
+    text-align: justify;
+    color: antiquewhite;
+}
+a{
+    color: antiquewhite;
+}
+
+li{
+    font-family: 'kiwi maru';
+    font-style: bold;
+    color: antiquewhite;
+}
+img{
+    width: 100%;
+}
+iframe{
+    width: 100%;
+}
+article#ref{
+    background-color: rgba(232, 134, 211, 0.45);
+    border-radius: 5px;
+    padding: 5px;
+}
+footer > p{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    box-shadow:1px 1px 1px 1px rgba(22, 21, 21, 0.51) ;
+    margin: -1%;
+}
+h2.h2ref{
+    background-color: rgba(176, 71, 203, 0.618);
+    padding: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(142, 137, 137);
+    margin: 0px;
+}
+header{
+   background-color: rgb(56, 64, 60);
+    padding: 10px;
+    margin: 10px;
+    color: antiquewhite;
+    border-radius: 15px 0px;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.458) ;
+}
+main{
+    background-color: rgb(56, 64, 60);
+    padding: 10px;
+    margin: 10px;
+    color: antiquewhite;
+    border-radius: 15px 0px;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.51) ;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.803);
+    padding: 2px;
+    margin: 10px;
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 15px 0px;
+    box-shadow:1px 1px 1px 1px rgba(22, 21, 21, 0.51) ;
+}
+footer > p {
+    margin: 8px;
+}
+nav{
+    background-color:rgba(6, 6, 5, 0.504);
+    color: antiquewhite;
+    padding: 4px;
+    border-radius: 5px 0px;
+    box-shadow:1px 1px 1px 1px rgba(132, 131, 131, 0.51) ;
+}
+nav > a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    margin-right: 20px;
+}
+nav > :hover{
+      text-decoration: underline;
+}
+article{
+    background-color:rgba(40, 40, 37, 0.483);
+    border-radius: 5px;
+}
+article > aside{
+    background-color:rgba(6, 6, 5, 0.504);
+    border-radius: 2px;
+}

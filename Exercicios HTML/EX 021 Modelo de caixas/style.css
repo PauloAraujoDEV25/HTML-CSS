@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*  Tipos de Caixa:
+ 
+    Box-level:                       inline-level:
+    <div>                            <Span>
+    <h1> - <h6>                      <a>
+    <p>                              <small>
+    <main>                           <strong>
+    <header>                         <em>
+    <nav>                            <sup>-<sub>
+    <article>                        <label>
+    <aside>                          <button>
+    <footer>                         <input>
+    <form>                           <select>
+    <video>                          <code>
+*/
+/*
+    hierarquia do short hand:
+
+    Quando todos os valores forem iguais = informar apenas um tamanho
+    Quando valores de cima/baixo e esquerda/direita forem iguais = informar apenas dois valores (sendo primeiro de cima/baixo e o segundo esquerda/direita)
+    Quando todos os valores forem diferentes = informar todos individualmente
+    */
+body{
+    background-color: rgb(163, 82, 255);
+}
+h1{
+    background-color: rgba(203, 206, 118, 0.706);
+    color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    border:10px solid rgb(255, 246, 3);
+    padding: 10px 10px 10px 10px;
+    margin: 20px auto 50px auto;
+    outline: 5px dashed yellowgreen;
+}
+a{
+    display: inline-block;
+    background-color: rgba(186, 186, 92, 0.7);
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(233, 235, 111);
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+p{
+    color: antiquewhite;
+}
