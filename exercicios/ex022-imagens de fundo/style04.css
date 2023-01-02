@@ -7,13 +7,17 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 10px black;
-    background-attachment: fixed;
+    background-attachment:fixed;
 }
 main{
     background-color: white;
-    width: 400px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border-radius: 15px;
 }
+/*Shorthand - background 
+color > image > position > repeat > [size] > attachment*/
+/*exemplo*/
+/*background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;*/
+/* o "size" ainda não funciona nos navegadores!*/
