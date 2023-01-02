@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+   padding: 0;
+   margin:0; 
+   box-sizing: border-box;
+}
+body{
+    background-image: url(imagens/pexels-photo-3705645.jpeg);
+}
+
+div.quadrado {
+     display: inline-block;
+     border: 1px solid black;
+     border-radius: 10px;
+     background-color: lightgray;
+     width: 300px;
+     height: 300px;
+}
+div#q1{
+    background-color: skyblue;
+}
+div#q2{
+    background-image: linear-gradient(to bottom,rgb(149, 5, 181),rgb(123, 54, 180));
+}
+div#q3{
+   background-image: url(imagens/pattern001.png);
+}
