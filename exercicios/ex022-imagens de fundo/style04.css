@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 10px black;
+    background-attachment: fixed;
 }
 main{
     background-color: white;
