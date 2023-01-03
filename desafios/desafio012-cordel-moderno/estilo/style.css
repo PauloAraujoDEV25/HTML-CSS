@@ -1,56 +1,90 @@
 @charset "UTF-8";
 
-*{
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: Cordel Encarnado;
+    src: url(../fontes/Cordel\ Encarnado.otf) format('opentype');
+}
+
+@font-face {
+    font-family: Cordel Encarnado II;
+    src: url(../fontes/Cordel\ Encarnado\ II.otf) format('opentype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font1: Cordel Encarnado;
+    --font2: Cordel Encarnado II;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
 }
- header{
+
+body {
+    font-family: var(--font2)
+}
+
+header {
     background-color: black;
     color: white;
     text-align: center;
- }
- header>h1{
+    font-family: var(--font1);
+    font-size: 10%vh;
+}
+
+header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
- }
- header>p{
+}
+
+header > p {
     padding-bottom: 50px;
- }
- header a, footer a{
+}
+
+header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bolder;
- }
- header a:hover, footer a:hover{
+}
+
+header a:hover, footer a:hover {
     text-decoration: underline;
- }
- section{
+}
+
+section {
     padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
- }
- section.normal{
+    font-family: var(--font1);
+    font-size: 3.5%vh;
+}
+
+section.normal {
     background-color: white;
     color: black;
- }
- section.imagem{
-    background-color: rgb(51, 51, 51);
-    color: white;
- }
- section.imagem>p{
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.253);
- }
+}
 
-footer{
-    background-color: black;
-    text-align: center;
+section.imagem {
+    background-color: rgb(30, 30, 30);
     color: white;
+}
+
+section.imagem > p {
+    display: inline-block;
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+footer { 
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: var(--font1);
 }
