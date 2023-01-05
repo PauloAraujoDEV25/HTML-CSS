@@ -12,6 +12,7 @@ h1{
 }
 
 table{
+    height: 200px;
     width: 400px;
     border-collapse: collapse;
 }
@@ -19,7 +20,11 @@ table{
 td{
     border: 3px solid black;
     padding: 5px;
+    text-align: left;
+    vertical-align: middle;
 }
+/* alinhamento horizontal usar (text-align:-> left ou right)
+   alinhamento vertical usar (vertical-align:top middle ou bottom)*/
 
 tr{
     background-color: lightgray;
@@ -38,6 +43,11 @@ td.dado{
     background-color: red;
 
 }
+
 td.interno{
     box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.353);
+}
+
+.numero{
+    text-align: right;
 }
