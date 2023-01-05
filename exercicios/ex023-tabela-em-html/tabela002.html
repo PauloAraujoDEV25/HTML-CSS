@@ -8,9 +8,9 @@
 </head>
 <style>
     body{
-        font-family: Arial, Helvetica, sans-serif;
-        
+        font-family: Arial, Helvetica, sans-serif;    
     }
+
     h1{
         text-align: center;
     }
@@ -25,18 +25,36 @@
         border:1px solid black ;
         padding: 5px;
     }
+
+    caption{
+        font-size:1.2em ;
+        font-weight: bold;
+        padding:6px;
+        background-color:lightgray;
+    }
     
     thead,tfoot{
         background-color: gray;
         color: white;
     }
+
+    tbody > tr:nth-child(odd){/* 2n-1 */
+        background-color: white;
+    }
+
+    tbody > tr:nth-child(even){/* 2n */
+        background-color:lightgray;
+    }
+
     td.numero{
         text-align: right;
     }
+
 </style>
 <body>
     <h1>Uso de tabelas Grandes</h1>
     <!--
+        Caption
         Anatomia para tabelas Grandes
         TREADY
         TR,TD,TH
@@ -46,10 +64,11 @@
         TR,TD,TH
     -->
     <table>
+        <caption>População das Unidade Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>populaçao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 150px;">Populaçao</th>
             </tr>
         </thead>
         <tbody>
@@ -163,7 +182,7 @@
             </tr>
         </tbody>
         <tfoot>
-            <th>Total de habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="numero"><strong>214 700 861</strong></td>
         </tfoot>
     </table>
