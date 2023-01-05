@@ -1,4 +1,7 @@
 @charset "UTF-8";
+*{
+    margin: 0;
+}
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&family=Audiowide&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&family=Kiwi+Maru&display=swap');
 header{
@@ -64,6 +67,7 @@ li{
     color: antiquewhite;
 }
 img{
+    height: 96%vh;
     width: 100%;
 }
 iframe{
@@ -80,6 +84,7 @@ footer > p{
     text-align: center;
     box-shadow:1px 1px 1px 1px rgba(22, 21, 21, 0.51) ;
     margin: -1%;
+    padding: 5px;
 }
 h2.h2ref{
     background-color: rgba(176, 71, 203, 0.618);

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-shadow: 2px 2px black;
+    font-size: bold;
+    font-style: italic;
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 3px solid black;
+    padding: 5px;
+}
+
+tr{
+    background-color: lightgray;
+    color: white;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.353);
+}
+
+tr.linha{
+    background-color: gray;
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.353);
+    color: white;
+}
+
+td.dado{
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.353);
+    background-color: red;
+
+}
+td.interno{
+    box-shadow: inset 6px 6px 15px rgba(0, 0, 0, 0.353);
+}
