@@ -27,6 +27,7 @@ span#burguer {
     padding: 5px;
     cursor: pointer;
 }
+
 span#burguer:hover {
     background-color: white;
     color: black;
